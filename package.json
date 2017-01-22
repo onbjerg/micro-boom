@@ -1,19 +1,19 @@
 {
   "name": "micro-boom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wraps errors in micro with Boom",
   "main": "dist/index.js",
   "repository": "https://github.com/onbjerg/micro-boom",
   "author": "Oliver Nordbjerg <hi@notbjerg.me>",
   "license": "MIT",
   "dependencies": {
-    "async-to-gen": "^1.3.0",
     "boom": "^4.2.0"
   },
   "peerDependencies": {
     "micro": "*"
   },
   "devDependencies": {
+    "async-to-gen": "^1.3.0",
     "ava": "^0.17.0",
     "micro": "^6.2.0",
     "request": "^2.79.0",
