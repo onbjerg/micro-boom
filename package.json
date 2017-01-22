@@ -14,11 +14,23 @@
     "micro": "*"
   },
   "devDependencies": {
-    "standard": "^8.6.0"
+    "ava": "^0.17.0",
+    "micro": "^6.2.0",
+    "request-promise": "^4.1.1",
+    "standard": "^8.6.0",
+    "test-listen": "^1.0.0"
+  },
+  "ava": {
+    "require": [
+      "async-to-gen/register"
+    ],
+    "files": [
+      "test/index.js"
+    ]
   },
   "scripts": {
     "prepublish": "npm run build",
     "build": "mkdir -p dist && async-to-gen lib/index.js > dist/index.js",
-    "lint": "standard"
+    "test": "standard && ava"
   }
 }
