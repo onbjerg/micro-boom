@@ -61,6 +61,9 @@ The status code of an error is determined by three factors, in order:
 - If not set, error is inferred from `res.statusCode`
 - Default to HTTP 500 (also defaults to HTTP 500 if status is < 400)
 
+> :rotating_light: **TAKE NOTE** :rotating_light:  
+> All HTTP 500 errors have their user provided message removed for security reasons.
+
 **Parameters**
 
 -   `fn` **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)** Async function, your normal `micro` logic.
