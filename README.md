@@ -1,4 +1,4 @@
-# `micro-boom` [![NPM](https://img.shields.io/npm/v/micro-boom.svg?style=flat)](https://www.npmjs.org/package/micro-boom) [![travis-ci](https://travis-ci.org/onbjerg/micro-boom.svg?branch=master)](https://travis-ci.org/onbjerg/micro-boom)
+# `micro-boom` [![NPM](https://img.shields.io/npm/v/micro-boom.svg?style=flat)](https://www.npmjs.org/package/micro-boom) [![travis-ci](https://travis-ci.org/onbjerg/micro-boom.svg?branch=master)](https://travis-ci.org/onbjerg/micro-boom) [![Greenkeeper](https://badges.greenkeeper.io/onbjerg/micro-boom.svg)](https://greenkeeper.io/)
 
 Wraps errors in [`micro`](https://github.com/zeit/micro) services [`Boom`](https://github.com/hapijs/boom) errors.
 
