@@ -1,6 +1,6 @@
 {
   "name": "micro-boom",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Wraps errors in micro with Boom",
   "main": "dist/index.js",
   "repository": "https://github.com/onbjerg/micro-boom",
