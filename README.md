@@ -100,7 +100,7 @@ Alias for [`Boom#create(statusCode, [message], [data])`](https://github.com/hapi
 
 -   `statusCode` **[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** HTTP status code, must be >= 400
 -   `message` **[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** An optional error message.
--   `message` **[Any]** Some optional error metadata, serialized with [``JSON.stringify``](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify).
+-   `data` **[Any]** Some optional error metadata, serialized with [``JSON.stringify``](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify).
 
 **Examples**
 
