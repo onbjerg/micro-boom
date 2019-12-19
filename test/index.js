@@ -65,7 +65,8 @@ test('createError, simple', async (t) => {
     throw createError(501)
   }, {
     statusCode: 501,
-    error: 'Not Implemented'
+    error: 'Not Implemented',
+    message: 'Not Implemented'
   })
 })
 
