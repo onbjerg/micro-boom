@@ -1,13 +1,13 @@
 {
   "name": "micro-boom",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Wraps errors in micro with Boom",
   "main": "dist/index.js",
   "repository": "https://github.com/onbjerg/micro-boom",
   "author": "Oliver Nordbjerg <hi@notbjerg.me>",
   "license": "MIT",
   "dependencies": {
-    "boom": "^4.2.0"
+    "@hapi/boom": "^8.0.1"
   },
   "peerDependencies": {
     "micro": "*"
